@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2black">
+
+
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3profile"
+        android:src="@android:drawable/ic_menu_sort_by_size"
+        android:background="@drawable/background3black"
+        android:adjustViewBounds="true"
+        android:baselineAlignBottom="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/profile"
+        android:layout_toLeftOf="@+id/profile"
+        android:layout_alignBottom="@+id/profile"
+        android:onClick="menu3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:id="@+id/profile"
+        android:text="Profile"
+        android:textSize="40sp"
+        android:textColor="#ffffffff"
+        android:background="@drawable/background3black"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/textView4"
+        android:layout_toEndOf="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="30dp"
+        android:textColor="#b0ffffff"
+        android:layout_below="@+id/imageButton3profile" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/editText5"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/background3black"
+        android:textColor="#ffffffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/editText5"
+        android:textSize="30dp"
+        android:textColor="#b0ffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/editText6"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editText5"
+        android:layout_alignEnd="@+id/editText5"
+        android:background="@drawable/background3black"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Account Setings"
+        android:id="@+id/button13"
+        android:layout_below="@+id/editText6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:enabled="true"
+        android:clickable="true"
+        android:onClick="accountsettings" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Filter"
+        android:id="@+id/button14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button13"
+        android:layout_alignRight="@+id/button13"
+        android:layout_alignEnd="@+id/button13" />
+
+</RelativeLayout>

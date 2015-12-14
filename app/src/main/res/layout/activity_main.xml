@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/background2black">
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:adjustViewBounds="true"
+        android:visibility="visible"
+        android:scaleType="fitXY"
+        android:background="@drawable/background3black"
+        android:src="@drawable/buttonlostsomething"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="lookingforsomething"
+        android:clickable="true" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"
+        android:background="@drawable/background3black"
+        android:src="@drawable/buttonfoundsomething"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="foundsomething"
+        android:clickable="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3"
+        android:src="@android:drawable/ic_menu_sort_by_size"
+        android:background="@drawable/background3black"
+        android:adjustViewBounds="true"
+        android:baselineAlignBottom="false"
+        android:contentDescription="dsfds"
+        android:layout_alignParentTop="true"
+        android:layout_alignBottom="@+id/crowdsearch"
+        android:layout_toLeftOf="@+id/crowdsearch"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="menu"
+        android:nestedScrollingEnabled="false"
+        android:layout_alignParentEnd="false" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crowdsearch"
+        android:id="@+id/crowdsearch"
+        android:textColor="#ffffffff"
+        android:textSize="40sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView4" />
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:id="@+id/imageView4"
+        android:layout_below="@+id/imageButton3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/usericon"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/background3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:id="@+id/textView7"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_toRightOf="@+id/imageView4"
+        android:layout_toEndOf="@+id/imageButton3"
+        android:textColor="#ffffffff"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:id="@+id/textView22"
+        android:layout_below="@+id/textView7"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignStart="@+id/textView7"
+        android:textColor="#ffffffff"
+        android:textSize="20dp"/>
+
+
+</RelativeLayout>

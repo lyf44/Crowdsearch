@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    tools:context="Appmenu"
+    android:background="@drawable/background2black">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="lost something"
+        android:drawableLeft="@android:drawable/ic_menu_upload"
+        android:id="@+id/button2"
+        android:background="@drawable/background3black"
+        android:textColor="#ffffffff"
+        android:onClick="lookingforsomething"
+        android:clickable="true"
+        android:enabled="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Found something"
+        android:id="@+id/button17"
+        android:drawableLeft="@android:drawable/ic_menu_upload"
+        android:background="@drawable/background3black"
+        android:textColor="#ffffffff"
+        android:onClick="foundsomething"
+        android:clickable="true"
+        android:enabled="true" /> />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="View request"
+        android:drawableLeft="@android:drawable/ic_dialog_map"
+        android:id="@+id/button3"
+        android:background="@drawable/background3black"
+        android:textColor="#ffffffff"
+        android:onClick="viewrequest"
+        android:enabled="true"
+        android:clickable="true" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Notification"
+        android:drawableLeft="@android:drawable/ic_menu_send"
+        android:id="@+id/button"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/background3black"
+        android:elegantTextHeight="true"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/button5"
+        android:nestedScrollingEnabled="true"
+        android:drawableLeft="@android:drawable/ic_menu_my_calendar"
+        android:text="Profile"
+        android:background="@drawable/background3black"
+        android:textColor="#ffffffff"
+        android:onClick="profile" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="achievement"
+        android:id="@+id/button16"
+        android:drawableLeft="@android:drawable/star_big_off"
+        android:background="@drawable/background3black"
+        android:textColor="#ffffffff" />
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="setting"
+        android:id="@+id/button6"
+        android:drawableLeft="@android:drawable/ic_menu_manage"
+        android:background="@drawable/background3black"
+        android:textColor="#ffffffff" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="sign out"
+        android:id="@+id/button7"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/background3black"
+        android:drawableLeft="@android:drawable/ic_notification_clear_all"
+        android:textColor="#ffffffff"
+        android:enabled="true"
+        android:onClick="signout" />
+
+</LinearLayout>

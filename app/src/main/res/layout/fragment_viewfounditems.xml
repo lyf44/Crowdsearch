@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2black">
+
+    <ImageButton
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3ff"
+        android:src="@android:drawable/ic_menu_sort_by_size"
+        android:background="@drawable/background3black"
+        android:adjustViewBounds="true"
+        android:baselineAlignBottom="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignBottom="@+id/viewrequestff"
+        android:clickable="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:id="@+id/viewrequestff"
+        android:text="View Found Items"
+        android:textSize="30dp"
+        android:textColor="#ffffffff"
+        android:background="@drawable/background3black"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/imageButton3ff"
+        android:layout_toEndOf="@+id/imageButton3ff"
+        android:gravity="center_vertical" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewff"
+        android:layout_gravity="center_horizontal"
+        android:layout_toEndOf="@+id/imageButton3ff"
+        android:layout_below="@+id/imageButton3ff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        android:textFilterEnabled="false" />
+</RelativeLayout>

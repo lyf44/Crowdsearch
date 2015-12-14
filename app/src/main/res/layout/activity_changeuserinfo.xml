@@ -1,0 +1,158 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2black">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/Changeuserinfo"
+        android:text="Change Userinfo"
+        android:textSize="40dp"
+        android:textColor="#ffffffff"
+        android:background="@drawable/background3black"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/Email"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:id="@+id/cuiEmail"
+        android:textSize="25dp"
+        android:textColor="#ffffffff"
+        android:textStyle="italic"
+        android:typeface="normal"
+        android:layout_below="@+id/Changeuserinfo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cuiinputemail"
+        android:inputType="text"
+        android:editable="true"
+        android:enabled="true"
+        android:textColor="#ffffffff"
+        android:layout_below="@+id/cuiEmail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/cuibutton11"
+        android:layout_alignEnd="@+id/cuibutton11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FirstName"
+        android:id="@+id/cuitextView5"
+        android:textSize="25dp"
+        android:textColor="#ffffffff"
+        android:textStyle="italic"
+        android:typeface="normal"
+        android:layout_below="@+id/cuiinputemail" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ok"
+        android:id="@+id/cuibutton11"
+        android:enabled="true"
+        android:clickable="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cuieditText9"
+        android:textColor="#ffffffff"
+        android:layout_below="@+id/cuitextView5"
+        android:layout_alignLeft="@+id/cuitextView5"
+        android:layout_alignStart="@+id/cuitextView5"
+        android:layout_alignRight="@+id/cuiinputemail"
+        android:layout_alignEnd="@+id/cuiinputemail" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LastName"
+        android:id="@+id/cuitextView21"
+        android:textSize="25dp"
+        android:textColor="#ffffffff"
+        android:textStyle="italic"
+        android:typeface="normal"
+        android:layout_below="@+id/cuieditText9"
+        android:layout_alignLeft="@+id/cuieditText9"
+        android:layout_alignStart="@+id/cuieditText9" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/cuieditText11"
+        android:layout_below="@+id/cuitextView21"
+        android:textColor="#ffffffff"
+        android:layout_alignLeft="@+id/cuitextView21"
+        android:layout_alignStart="@+id/cuitextView21"
+        android:layout_alignRight="@+id/cuieditText9"
+        android:layout_alignEnd="@+id/cuieditText9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Password"
+        android:id="@+id/textView23"
+        android:textColor="#ffffffff"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:layout_below="@+id/cuieditText11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText12"
+        android:layout_below="@+id/textView23"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffffff"
+        android:layout_alignRight="@+id/cuieditText11"
+        android:layout_alignEnd="@+id/cuieditText11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirm New Password"
+        android:id="@+id/textView24"
+        android:layout_below="@+id/editText12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textColor="#ffffffff"
+        android:textStyle="italic"
+        android:textSize="25dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText13"
+        android:layout_below="@+id/textView24"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/editText12"
+        android:layout_alignEnd="@+id/editText12"
+        android:textColor="#ffffffff" />
+
+
+</RelativeLayout>
+

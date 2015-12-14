@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="lyf44.crowdsearch.Viewitem"
+    android:background="@drawable/background2black">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton3viewitem"
+        android:src="@android:drawable/ic_menu_sort_by_size"
+        android:background="@drawable/background3black"
+        android:adjustViewBounds="true"
+        android:baselineAlignBottom="false"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/textView25"
+        android:layout_toLeftOf="@+id/Viewitem"
+        android:layout_toStartOf="@+id/Viewitem" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:id="@+id/Viewitem"
+        android:text="Viewitem"
+        android:textSize="40dp"
+        android:textColor="#ffffffff"
+        android:background="@drawable/background3black"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Item Name"
+        android:id="@+id/textView25"
+        android:textSize="25dp"
+        android:textColor="#ffffffff"
+        android:textStyle="italic"
+        android:layout_below="@+id/Viewitem"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView26"
+        android:textSize="25dp"
+        android:textColor="#ffff9191"
+        android:textStyle="italic"
+        android:layout_below="@+id/textView25"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="was found/lost at"
+        android:id="@+id/textView27"
+        android:textSize="25dp"
+        android:textColor="#ffffffff"
+        android:textStyle="italic"
+        android:layout_below="@+id/textView26"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textView28"
+        android:textSize="25dp"
+        android:textColor="#ffff9191"
+        android:textStyle="italic"
+        android:layout_below="@+id/textView27"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:id="@+id/button18"
+        android:enabled="true"
+        android:clickable="true"
+        android:textColor="#fffcfdff"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="message" />
+
+
+</RelativeLayout>
