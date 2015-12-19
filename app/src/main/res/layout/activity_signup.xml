@@ -66,7 +66,7 @@
         android:textColor="#ffffffff"
         android:textStyle="italic"
         android:typeface="normal"
-        android:layout_below="@+id/editText7"
+        android:layout_below="@+id/inputPass"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
@@ -79,9 +79,9 @@
         android:textColor="#ffffffff"
         android:textStyle="italic"
         android:typeface="normal"
-        android:layout_below="@+id/editText10"
-        android:layout_alignLeft="@+id/editText10"
-        android:layout_alignStart="@+id/editText10" />
+        android:layout_below="@+id/confirmPass"
+        android:layout_alignLeft="@+id/confirmPass"
+        android:layout_alignStart="@+id/confirmPass" />
 
     <Button
         android:layout_width="wrap_content"
@@ -97,20 +97,20 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText9"
+        android:id="@+id/inputFirstName"
         android:textColor="#ffffffff"
         android:layout_below="@+id/textView5"
         android:layout_alignLeft="@+id/textView5"
         android:layout_alignStart="@+id/textView5"
-        android:layout_alignRight="@+id/editText10"
-        android:layout_alignEnd="@+id/editText10" />
+        android:layout_alignRight="@+id/confirmPass"
+        android:layout_alignEnd="@+id/confirmPass" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:ems="10"
-        android:id="@+id/editText10"
+        android:id="@+id/confirmPass"
         android:textColor="#ffffffff"
         android:layout_below="@+id/textView2"
         android:layout_alignLeft="@+id/textView2"
@@ -125,33 +125,33 @@
         android:textColor="#ffffffff"
         android:textStyle="italic"
         android:typeface="normal"
-        android:layout_below="@+id/editText9"
-        android:layout_alignLeft="@+id/editText9"
-        android:layout_alignStart="@+id/editText9" />
+        android:layout_below="@+id/inputFirstName"
+        android:layout_alignLeft="@+id/inputFirstName"
+        android:layout_alignStart="@+id/inputFirstName" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText11"
+        android:id="@+id/inputLastName"
         android:layout_below="@+id/textView21"
         android:textColor="#ffffffff"
         android:layout_alignLeft="@+id/textView21"
         android:layout_alignStart="@+id/textView21"
-        android:layout_alignRight="@+id/editText9"
-        android:layout_alignEnd="@+id/editText9" />
+        android:layout_alignRight="@+id/inputFirstName"
+        android:layout_alignEnd="@+id/inputFirstName" />
 
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/editText7"
+        android:id="@+id/inputPass"
         android:inputType="textPassword"
         android:textColor="#ffffffff"
         android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_toStartOf="@+id/button11"
-        android:layout_alignRight="@+id/editText10"
-        android:layout_alignEnd="@+id/editText10" />
+        android:layout_alignRight="@+id/confirmPass"
+        android:layout_alignEnd="@+id/confirmPass" />
 
 
 </RelativeLayout>

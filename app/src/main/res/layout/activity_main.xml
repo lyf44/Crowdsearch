@@ -8,7 +8,7 @@
     <ImageButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton"
+        android:id="@+id/lookForSomething1"
         android:adjustViewBounds="true"
         android:visibility="visible"
         android:scaleType="fitXY"
@@ -23,12 +23,12 @@
     <ImageButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton2"
+        android:id="@+id/foundSomeThing1"
         android:scaleType="fitXY"
         android:adjustViewBounds="true"
         android:background="@drawable/background3black"
         android:src="@drawable/buttonfoundsomething"
-        android:layout_below="@+id/imageButton"
+        android:layout_below="@+id/lookForSomething1"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:onClick="foundsomething"
@@ -62,13 +62,13 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:layout_toEndOf="@+id/imageView4"
-        android:layout_toRightOf="@+id/imageView4" />
+        android:layout_toEndOf="@+id/avatar"
+        android:layout_toRightOf="@+id/avatar" />
 
     <ImageView
         android:layout_width="75dp"
         android:layout_height="75dp"
-        android:id="@+id/imageView4"
+        android:id="@+id/avatar"
         android:layout_below="@+id/imageButton3"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
@@ -81,8 +81,8 @@
         android:layout_height="wrap_content"
         android:text="Welcome"
         android:id="@+id/textView7"
-        android:layout_alignTop="@+id/imageView4"
-        android:layout_toRightOf="@+id/imageView4"
+        android:layout_alignTop="@+id/avatar"
+        android:layout_toRightOf="@+id/avatar"
         android:layout_toEndOf="@+id/imageButton3"
         android:textColor="#ffffffff"
         android:textSize="20dp" />
