@@ -130,8 +130,8 @@
     <orderEntry type="library" exported="" name="play-services-ads-7.0.0" level="project" />
     <orderEntry type="library" exported="" name="appcompat-v7-22.0.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-appstate-7.0.0" level="project" />
-    <orderEntry type="library" exported="" name="azure-notifications-handler-1.0.1" level="project" />
     <orderEntry type="library" exported="" name="azure-mobile-services-android-sdk-2.0.2" level="project" />
+    <orderEntry type="library" exported="" name="azure-notifications-handler-1.0.1" level="project" />
     <orderEntry type="library" exported="" name="play-services-drive-7.0.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-analytics-7.0.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-games-7.0.0" level="project" />

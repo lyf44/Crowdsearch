@@ -38,7 +38,7 @@ public class MyHandler extends NotificationsHandler {
 
             protected Void doInBackground(Void... params) {
                 try {
-                    MainActivity.mClient.getPush().register(gcmRegistrationId, null);
+                    //MainActivity.mClient.getPush().register(gcmRegistrationId, null);
                     return null;
                 }
                 catch(Exception e) {
