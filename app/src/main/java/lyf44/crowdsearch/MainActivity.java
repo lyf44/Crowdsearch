@@ -30,7 +30,7 @@ import java.net.MalformedURLException;
 public class MainActivity extends Activity {
 
     ImageView avator;
-    ImageButton lookfor,found;
+    ImageButton lookfor,found,menubtn;
 
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,10 +44,12 @@ public class MainActivity extends Activity {
         avator = (ImageView) findViewById(R.id.avatar);
         lookfor = (ImageButton) findViewById(R.id.lookForSomething1);
         found = (ImageButton) findViewById(R.id.foundSomeThing1);
+        menubtn = (ImageButton) findViewById(R.id.mainMenuBtn);
 
         avator.setOnClickListener(new personalInf());
         lookfor.setOnClickListener(new lookforListen());
         found.setOnClickListener(new foundListen());
+        menubtn.setOnClickListener(new startMenu());
     }
 
     private class personalInf implements OnClickListener{
@@ -72,6 +74,15 @@ public class MainActivity extends Activity {
         public void onClick(View v) {
             Intent intent = new Intent();
             intent.setClass(MainActivity.this,upload_request_found.class);
+            startActivity(intent);
+        }
+    }
+
+    private class startMenu implements OnClickListener{
+        @Override
+        public void onClick(View v){
+            Intent intent = new Intent();
+            intent.setClass(MainActivity.this,Appmenu.class);
             startActivity(intent);
         }
     }

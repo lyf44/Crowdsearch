@@ -37,7 +37,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/listView"
         android:layout_gravity="center_horizontal"
-        android:layout_toEndOf="@+id/imageButton3"
+        android:layout_toEndOf="@+id/mainMenuBtn"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:visibility="visible"

@@ -7,7 +7,7 @@
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/imageButton3"
+        android:id="@+id/mainMenuBtn"
         android:src="@android:drawable/ic_menu_sort_by_size"
         android:background="@drawable/background3black"
         android:adjustViewBounds="true"
@@ -37,6 +37,6 @@
         android:id="@+id/listView2"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/imageButton3" />
+        android:layout_below="@+id/mainMenuBtn" />
 
 </RelativeLayout>

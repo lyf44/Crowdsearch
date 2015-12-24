@@ -6,18 +6,15 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.ListView;
 import com.microsoft.windowsazure.mobileservices.MobileServiceClient;
 import com.microsoft.windowsazure.mobileservices.table.MobileServiceTable;
-import com.microsoft.windowsazure.mobileservices.MobileServiceList;
 
 import java.net.MalformedURLException;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 
 public class Viewrequest extends Activity {
@@ -45,7 +42,7 @@ public class Viewrequest extends Activity {
             e.printStackTrace();
         }
 
-        ImageButton mbutton = (ImageButton) findViewById(R.id.imageButton3);
+        ImageButton mbutton = (ImageButton) findViewById(R.id.mainMenuBtn);
         mbutton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
